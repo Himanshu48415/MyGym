@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Fitness</title>
+    <link href='https://fonts.googleapis.com/css?family=Baloo' rel='stylesheet'>
+    
+    <style>
+        body{
+            font-family: 'Baloo 2';
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(backgym.jpg);
+        }
+        .left{
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            /* border: 2px solid red; */
+            display: inline-block;
+            font-size: 18px;
+            line-height: 0px;
+
+        }
+        .left img{
+            width: 115px;
+            
+        }
+        .btn{
+            margin: 0px 5px;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 8px;  
+
+        }
+        .btn:hover{
+            background-color: rgb(39, 37, 37)
+            
+        }
+        .mid{
+            font-family: 'Baloo 2';
+            
+            width: 35%;
+            margin: 20px auto;
+            font-size: 22px;
+            
+            /* border: 2px solid green; */
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 35px;
+            /* border: 2px solid yellow; */
+            display: inline-block;
+
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 18px;
+        }
+        .navbar li a{
+            color: whitesmoke;
+            text-decoration: none;
+            padding: 34px 15px;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color: rgb(129, 129, 141);
+        }
+        .container{
+            border: 2px solid green;
+            width: 33%;
+            margin: 115px 70px;
+            padding: 75px;
+            border-radius: 10px;
+            border-color: black;
+            border-width: 3px;
+            font-family: 'Baloo 2';
+            
+        }
+        .form-group input{
+            font-family: 'Alata';font-size: 22px;
+            text-align: center;
+            display: block;
+            width: 448px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            border-radius: 8px;
+            font-size: 19px;
+            font-family: 'Baloo 2';font-size: 22px;
+        }
+        .container button{
+            display: block;
+            width: 90%;
+            margin: auto;
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="gym-gcbdc79f05_1280.png" alt="Image not found">
+            <div>Himanshu Fitness</div>
+        </div>
+        <div class="mid">
+            <!-- for navbar -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <!-- for buttons -->
+            <button class="btn">Email</button><button class="btn">Register Now</button>
+         
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of NOIDA now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit Now</button>
+        </form>
+    </div>
+    
+</body>
+</html>
